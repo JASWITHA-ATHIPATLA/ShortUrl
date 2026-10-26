@@ -29,6 +29,7 @@ async function handleUserLogin(req,res){
     res.cookie("token", token);
     return res.redirect('/url');
 }
+
 module.exports={
     handleUserSignup,
     handleUserLogin,
